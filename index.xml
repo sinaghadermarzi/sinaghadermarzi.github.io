@@ -1,1 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sina's Page</title><link>https://sina.page/</link><description>Recent content on Sina's Page</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright/><lastBuildDate>Wed, 25 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sina.page/index.xml" rel="self" type="application/rss+xml"/><item><title>I built my page</title><link>https://sina.page/updates/mypage/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate><guid>https://sina.page/updates/mypage/</guid><description>Here is the new post.</description></item><item><title>My First Blog Post</title><link>https://sina.page/blog/mypost/</link><pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate><guid>https://sina.page/blog/mypost/</guid><description>Here is the new post.</description></item><item><title>CV</title><link>https://sina.page/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sina.page/cv/</guid><description>Links # Linkedin Github Twitter Google Scholar ResearchGate Reaserch Interests # Machine Learning Bioinformatics Education # Ph.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sina's Page</title><link>https://sina.page/</link><description>Recent content on Sina's Page</description><generator>Hugo</generator><language>en</language><copyright/><lastBuildDate>Wed, 25 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sina.page/index.xml" rel="self" type="application/rss+xml"/><item><title>I built my page</title><link>https://sina.page/updates/mypage/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate><guid>https://sina.page/updates/mypage/</guid><description>&lt;p&gt;Here is the new post.
+Let&amp;rsquo;s say we want to create a link to &lt;a href="https://google.com"&gt;google&lt;/a&gt;&lt;/p&gt;</description></item><item><title>My First Blog Post</title><link>https://sina.page/blog/mypost/</link><pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate><guid>https://sina.page/blog/mypost/</guid><description>&lt;p&gt;Here is the new post.
+Let&amp;rsquo;s say we want to create a link to &lt;a href="https://google.com"&gt;google&lt;/a&gt;&lt;/p&gt;</description></item><item><title>CV</title><link>https://sina.page/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sina.page/cv/</guid><description>&lt;h2 id="links"&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.linkedin.com/in/sina-ghadermarzi/"&gt;Linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/sinaghadermarzi"&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/GhadermarziSina"&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://scholar.google.com/citations?user=AcpzHc8AAAAJ&amp;amp;hl=en"&gt;Google Scholar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.researchgate.net/profile/Sina-Ghadermarzi-2"&gt;ResearchGate&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="reaserch-interests"&gt;Reaserch Interests&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Machine Learning&lt;/li&gt;
+&lt;li&gt;Bioinformatics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="education"&gt;Education&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Ph.D.&lt;/strong&gt; Computer Science (2022)
+&lt;br&gt;&lt;em&gt;Virginia Commonwealth University, Richmond, Virginia, US&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;M.Sc.&lt;/strong&gt; Computer Engineering (2017)
+&lt;br&gt;&lt;em&gt;Amirkabir University of Technology, Tehran, Iran&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;B.Sc.&lt;/strong&gt; Computer Engineering (2013)
+&lt;br&gt;&lt;em&gt;Shahid Beheshti University, Tehran, Iran&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="journal-publications"&gt;Journal Publications&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;2021&lt;/strong&gt;. DNAgenie: accurate prediction of DNA-type-specific binding residues in protein sequences
+&amp;ndash; &lt;a href="https://doi.org/10.1093/bib/bbab336"&gt;&lt;em&gt;Briefings in Bioinformatics&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2021&lt;/strong&gt;. XRRpred: accurate predictor of crystal structure quality from protein sequence
+&amp;ndash; &lt;a href="https://doi.org/10.1093/bioinformatics/btab509"&gt;&lt;em&gt;Bioinformatics&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
