@@ -1,0 +1,38 @@
+# macOS Finder cruft
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Hugo build output
+/public/
+/resources/_gen/
+
+# Hugo module/vendor cache
+/_vendor/
+/vendor/
+
+# Go / Hugo module files
+*.log
+*.tmp
+
+# Node/npm (if you ever use PostCSS/Tailwind locally)
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python venv (if you run helpers)
+.venv/
+__pycache__/
+*.pyc
+
+# GitHub Pages Action cache
+hugo_cache/
