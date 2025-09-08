@@ -14,12 +14,6 @@ enableCodeCopy = false
 
 # robots = ""
 
-[params]
-  favicon = "icons/favicon-32x32.png"
-  favicon16 = "icons/favicon-16x16.png"
-  favicon32 = "icons/favicon-32x32.png"
-  appleTouchIcon = "icons/apple-touch-icon.png"
-  manifest = "icons/site.webmanifest"
 
 
 [header]
