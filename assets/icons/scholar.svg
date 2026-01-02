@@ -1,22 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="50mm"
-   height="50mm"
-   viewBox="0 0 5.8200002 5.8200002"
-   version="1.1"
-   id="svg1"
-   xml:space="preserve"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><defs
-     id="defs1" /><g
-     id="layer1"
-     transform="translate(-5.739854,-137.61516)"><g
-       style="fill:currentColor"
-       id="g1"
-       transform="matrix(0.26458333,0,0,0.26458333,5.4752707,137.67236)"><path
-         d="M 12,3 1,9 12,15 21,10.09 V 17 h 2 V 9 Z"
-         id="path1" /><path
-         d="M 5,12.5 V 16 c 0,0.55 0.3,1.06 0.79,1.33 C 7.24,18.18 9.55,19 12,19 14.45,19 16.76,18.18 18.21,17.33 18.7,17.06 19,16.55 19,16 v -3.5 l -7,3.82 z"
-         id="path2" /></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 512 512"
+     fill="currentColor"
+     aria-hidden="true">
+  <path d="M256 411.12L0 202.667 256 0z"/>
+  <path d="M256 411.12l256-208.453L256 0z"/>
+  <circle cx="256" cy="362.667" r="149.333"/>
+  <path d="M121.037 298.667c23.968-50.453 75.392-85.334 134.963-85.334s110.995 34.881 134.963 85.334H121.037z"/>
+</svg>
