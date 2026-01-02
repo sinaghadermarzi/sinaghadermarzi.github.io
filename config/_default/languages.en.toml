@@ -34,7 +34,7 @@ dateFormat = "2 January 2006"
     # { foursquare = "https://foursquare.com/username" },
     { linkedin = "https://www.linkedin.com/in/sina-ghadermarzi/" },
     { github = "https://github.com/sinaghadermarzi" },
-    # { scholar = "https://github.com/sinaghadermarzi" },
+    { scholar = "https://scholar.google.com/citations?user=AcpzHc8AAAAJ&hl=en" },
     # { gitlab = "https://gitlab.com/username" },
     # { google = "https://www.google.com/" },
     # { hashnode = "https://username.hashnode.dev" },
