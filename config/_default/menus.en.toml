@@ -17,7 +17,8 @@
 
 [[main]]
   name = "Blog"
-  url = "https://blog.sina.page"
+#  url = "https://blog.sina.page"
+	pageRef = "Blog"
   weight = 15
 
 # [[main]]
