@@ -1,6 +1,6 @@
 {
-  "name": "Sina's Page",
-  "short_name": "Sina",
+  "name": "MyWebSite",
+  "short_name": "MySite",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
