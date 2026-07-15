@@ -13,7 +13,7 @@ showTableOfContents : true
 
 - [Linkedin](https://www.linkedin.com/in/sina-ghadermarzi/)
 - [Github](https://github.com/sinaghadermarzi)
-- [Twitter](https://twitter.com/GhadermarziSina)
+- [X (formerly Twitter)](https://x.com/GhadermarziSina)
 - [Google Scholar](https://scholar.google.com/citations?user=AcpzHc8AAAAJ&hl=en)
 - [ResearchGate](https://www.researchgate.net/profile/Sina-Ghadermarzi-2)
 
