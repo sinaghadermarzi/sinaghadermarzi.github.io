@@ -9,5 +9,7 @@ showReadingTime: false
 showEdit: false
 ---
 
+Applied AI/ML Scientist building intelligent systems that solve real-world problems.
+
 
 
