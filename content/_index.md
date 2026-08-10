@@ -11,7 +11,7 @@ showEdit: false
 
 > Asking the right question may be the one thing we can't delegate.
 
-My interests sit at the intersection of ** AI systems and their application in science **.
+My interests sit at the intersection of **AI systems and their application in science**.
 
 ## Selected Work
 
