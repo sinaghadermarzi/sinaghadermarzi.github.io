@@ -8,19 +8,18 @@ showReadingTime: false
 showEdit: false
 ---
 
-# Sina Ghadermarzi
 
-AI researcher and builder.
+> Asking the right question may be the one thing we can't delegate.
 
-I build intelligent systems and study how machines learn, reason, delegate, and interact with the world. My work spans machine learning research, production AI systems, and hands-on experiments with modern AI architectures.
-
-My interests sit at the intersection of **AI systems, evaluation, learning, and human-computer collaboration**.
+My interests sit at the intersection of **AI systems and their application in science**.
 
 ## Selected Work
 
-- [Patient Record Linkage at Scale](/work/patient-record-linkage/) — contrastive learning and deterministic systems for large-scale healthcare identity resolution.
-- [Cell2Sentence](/work/cell2sentence/) — adapting language models to single-cell biology.
-- [Machine Learning for Protein Biology](/work/protein-ml/) — sequence-based machine learning for structure, disorder, binding, and biological function.
+[Patient Record Linkage at Scale](/work/patient-record-linkage/) — contrastive learning and deterministic systems for large-scale healthcare identity resolution.
+
+[Cell2Sentence](/work/cell2sentence/) — adapting language models to single-cell biology.
+
+[Machine Learning for Protein Biology](/work/protein-ml/) — sequence-based machine learning for structure, disorder, binding, and biological function.
 
 ## Labs
 
@@ -30,6 +29,8 @@ I use executable labs to turn questions into small, testable systems. [Browse th
 
 I write about AI systems, evaluation, software architecture, and learning.
 
-- [Evals Are the New Engineering Artifacts](/writing/evals-engineering-artifacts/)
-- [The New Delegation Stack](/writing/delegation-stack/)
-- [How Much Can an Interview Actually Measure?](/writing/evaluation-resolution/)
+[Evals Are the New Engineering Artifacts](/writing/evals-engineering-artifacts/)
+
+[The New Delegation Stack](/writing/delegation-stack/)
+
+[How Much Can an Interview Actually Measure?](/writing/evaluation-resolution/)

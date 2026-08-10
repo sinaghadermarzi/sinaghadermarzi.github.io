@@ -14,4 +14,4 @@ Labs are where I turn questions into executable artifacts: notebooks, controlled
 - [Voice AI Lab](https://github.com/sinaghadermarzi/voice-ai-lab) — practical experiments across speech recognition, speech generation, diarization, voice cloning, streaming, and realtime voice systems.
 - [Frontend Lab](https://github.com/sinaghadermarzi/frontend-lab) — understanding the modern web stack by rebuilding one application from HTML through React, Next.js, React Native, auth, and shared clients.
 
-The lab format is part of how I learn: **question → experiment → evidence → reusable mental model**.
+The lab format is part of how I learn: **question → experiment → learning → recorded notes**.
