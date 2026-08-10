@@ -16,7 +16,9 @@ My interests sit at the intersection of ** AI systems and their application in s
 ## Selected Work
 
 [Patient Record Linkage at Scale](/work/patient-record-linkage/) — contrastive learning and deterministic systems for large-scale healthcare identity resolution.
+
 [Cell2Sentence](/work/cell2sentence/) — adapting language models to single-cell biology.
+
 [Machine Learning for Protein Biology](/work/protein-ml/) — sequence-based machine learning for structure, disorder, binding, and biological function.
 
 ## Selected Labs
