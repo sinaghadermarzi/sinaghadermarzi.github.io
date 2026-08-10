@@ -3,7 +3,7 @@ title: "Labs"
 description: "Executable investigations into AI systems, machine learning, and software."
 ---
 
-Labs are where I use expperiments to learn: notebooks, controlled experiments, small systems, and reproducible comparisons. They are intentionally more exploratory than the projects in [Work](/work/), but I try to make the reasoning inspectable and the results reproducible.
+Labs are where I use experiments to learn: notebooks, controlled experiments, small systems, and reproducible comparisons. They are intentionally more exploratory than the projects in [Work](/work/), but I try to make the reasoning inspectable and the results reproducible.
 
 ## AI / ML
 
@@ -19,4 +19,4 @@ Labs are where I use expperiments to learn: notebooks, controlled experiments, s
 
 - [Frontend Lab](/labs/frontend-lab/) — rebuilding one notes application across HTML, DOM scripting, HTTP, TypeScript/Vite, React, Next.js, React Native, auth, and shared clients to understand why each layer exists.
 
-The lab format is part of how I learn: **question → experiment → evidence → reusable mental model**.
+The lab format is part of how I learn: **question → experiment → learning → recorded mental model**.
