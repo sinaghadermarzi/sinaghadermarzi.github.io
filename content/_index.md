@@ -8,11 +8,8 @@ showReadingTime: false
 showEdit: false
 ---
 
-# Sina Ghadermarzi
 
-AI researcher and builder.
-
-I build intelligent systems and study how machines learn, reason, delegate, and interact with the world. My work spans machine learning research, production AI systems, and hands-on experiments with modern AI architectures.
+Asking the right question may be the one thing we can't delegate.
 
 My interests sit at the intersection of **AI systems, evaluation, learning, and human-computer collaboration**.
 
@@ -24,7 +21,7 @@ My interests sit at the intersection of **AI systems, evaluation, learning, and 
 
 ## Selected Labs
 
-I use executable labs to turn questions into small, testable systems.
+I use experiment notebooks to learn and 
 
 - [Agentic Systems Lab](/labs/agentic-lab/) — agent patterns, orchestration, delegation, verification, MCP, and A2A.
 - [LLM Post-Training Lab](/labs/llm-posttrain-lab/) — controlled SFT, DPO, PPO, and GRPO experiments around reward, KL, retention, and diversity.
