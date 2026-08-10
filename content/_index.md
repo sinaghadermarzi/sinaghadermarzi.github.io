@@ -21,19 +21,9 @@ My interests sit at the intersection of **AI systems and their application in sc
 
 [Machine Learning for Protein Biology](/work/protein-ml/) — sequence-based machine learning for structure, disorder, binding, and biological function.
 
-## Selected Labs
+## Labs
 
-I use experiment notebooks to learn. 
-
-[Agentic Systems Lab](/labs/agentic-lab/) — agent patterns, orchestration, delegation, verification, MCP, and A2A.
-
-[LLM Post-Training Lab](/labs/llm-posttrain-lab/) — controlled SFT, DPO, PPO, and GRPO experiments around reward, KL, retention, and diversity.
-
-[Transfer Learning Lab](/labs/transfer-learning-lab/) — experiments on transferability, negative transfer, forgetting, multi-task interference, and composability.
-
-[DSPy Lab](/labs/dspy-lab/) — LLM programming, evaluation, optimization, agents, and observability from first principles.
-
-[Explore all labs →](/labs/)
+I use executable labs to turn questions into small, testable systems. [Browse the labs →](/labs/)
 
 ## Writing
 

@@ -3,20 +3,15 @@ title: "Labs"
 description: "Executable investigations into AI systems, machine learning, and software."
 ---
 
-Labs are where I use experiments to learn: notebooks, controlled experiments, small systems, and reproducible comparisons. They are intentionally more exploratory than the projects in [Work](/work/), but I try to make the reasoning inspectable and the results reproducible.
+Labs are where I turn questions into executable artifacts: notebooks, controlled experiments, small systems, and reproducible comparisons.
 
-## AI / ML
-
-- [Agentic Systems Lab](/labs/agentic-lab/) — durable agent patterns separated from fast-moving framework syntax: workflows, tool loops, delegation, verification, human gates, MCP, A2A, and multi-agent orchestration.
-- [DSPy Lab](/labs/dspy-lab/) — a progressive notebook course on signatures, modules, evaluation, prompt/program optimization, inference-time strategies, agents, and observability.
-- [LLM Text Generation Lab](/labs/llm-textgen-lab/) — decoding, sampling, reasoning controls, self-consistency, verifier loops, adaptive budgets, and search.
-- [Voice AI Lab](/labs/voice-ai-lab/) — practical experiments across speech recognition, speech generation, voice cloning, diarization, streaming, and realtime voice-agent stacks.
-- [LLM Post-Training Lab](/labs/llm-posttrain-lab/) — controlled comparisons of SFT, DPO, PPO, and GRPO, with reward/KL frontiers and diagnostics for capability retention, diversity, and preference behavior.
-- [Transfer Learning Lab](/labs/transfer-learning-lab/) — small experiments on layer transferability, task-transfer matrices, negative transfer, forgetting, multi-task interference, modular composition, and self-supervision.
-- [Stat-ML Lab](/labs/stat-ml-lab/) — simulation-heavy applied statistics and machine learning: experimentation, causal inference, Bayesian methods, forecasting, product analytics, production ML, SQL/Spark, and operations research.
-
-## Software
-
-- [Frontend Lab](/labs/frontend-lab/) — rebuilding one notes application across HTML, DOM scripting, HTTP, TypeScript/Vite, React, Next.js, React Native, auth, and shared clients to understand why each layer exists.
+- [LLM Post-Training Lab](https://github.com/sinaghadermarzi/llm-posttrain-lab) — controlled SFT, DPO, PPO, and GRPO experiments around reward, KL, capability retention, diversity, and preference behavior.
+- [Agentic Systems Lab](https://github.com/sinaghadermarzi/agentic-lab) — agent patterns, workflow spines, delegation, verification, human gates, MCP, A2A, and multi-agent orchestration.
+- [Transfer Learning Lab](https://github.com/sinaghadermarzi/transfer-learning-lab) — experiments on transferability, negative transfer, forgetting, multi-task interference, modular composition, and self-supervision.
+- [DSPy Lab](https://github.com/sinaghadermarzi/dspy-lab) — LLM programming as specification, evaluation, and optimization; from signatures and modules to agents and observability.
+- [LLM Text Generation Lab](https://github.com/sinaghadermarzi/llm-textgen-lab) — decoding, sampling, reasoning controls, self-consistency, adaptive compute, verifier loops, and search.
+- [Stat-ML Lab](https://github.com/sinaghadermarzi/stat-ml-lab) — simulation-heavy applied statistics and ML across experimentation, causal inference, Bayesian methods, forecasting, production ML, SQL/Spark, and operations research.
+- [Voice AI Lab](https://github.com/sinaghadermarzi/voice-ai-lab) — practical experiments across speech recognition, speech generation, diarization, voice cloning, streaming, and realtime voice systems.
+- [Frontend Lab](https://github.com/sinaghadermarzi/frontend-lab) — understanding the modern web stack by rebuilding one application from HTML through React, Next.js, React Native, auth, and shared clients.
 
 The lab format is part of how I learn: **question → experiment → learning → recorded notes**.
