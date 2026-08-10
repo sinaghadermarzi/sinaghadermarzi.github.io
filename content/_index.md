@@ -22,16 +22,18 @@ My interests sit at the intersection of **AI systems, evaluation, learning, and 
 - [Cell2Sentence](/work/cell2sentence/) — adapting language models to single-cell biology.
 - [Machine Learning for Protein Biology](/work/protein-ml/) — sequence-based machine learning for structure, disorder, binding, and biological function.
 
-## Selected Labs
+## Labs
 
-I use executable labs to turn questions into small, testable systems.
+I use executable labs to turn questions into small, testable systems. These are exploratory by design; the links go directly to the repositories.
 
-- [Agentic Systems Lab](/labs/agentic-lab/) — agent patterns, orchestration, delegation, verification, MCP, and A2A.
-- [LLM Post-Training Lab](/labs/llm-posttrain-lab/) — controlled SFT, DPO, PPO, and GRPO experiments around reward, KL, retention, and diversity.
-- [Transfer Learning Lab](/labs/transfer-learning-lab/) — experiments on transferability, negative transfer, forgetting, multi-task interference, and composability.
-- [DSPy Lab](/labs/dspy-lab/) — LLM programming, evaluation, optimization, agents, and observability from first principles.
-
-[Explore all labs →](/labs/)
+- [LLM Post-Training Lab](https://github.com/sinaghadermarzi/llm-posttrain-lab) — controlled SFT, DPO, PPO, and GRPO experiments around reward, KL, capability retention, diversity, and preference behavior.
+- [Agentic Systems Lab](https://github.com/sinaghadermarzi/agentic-lab) — agent patterns, workflow spines, delegation, verification, human gates, MCP, A2A, and multi-agent orchestration.
+- [Transfer Learning Lab](https://github.com/sinaghadermarzi/transfer-learning-lab) — experiments on transferability, negative transfer, forgetting, multi-task interference, modular composition, and self-supervision.
+- [DSPy Lab](https://github.com/sinaghadermarzi/dspy-lab) — LLM programming as specification, evaluation, and optimization; from signatures and modules to agents and observability.
+- [LLM Text Generation Lab](https://github.com/sinaghadermarzi/llm-textgen-lab) — decoding, sampling, reasoning controls, self-consistency, adaptive compute, verifier loops, and search.
+- [Stat-ML Lab](https://github.com/sinaghadermarzi/stat-ml-lab) — simulation-heavy applied statistics and ML across experimentation, causal inference, Bayesian methods, forecasting, production ML, SQL/Spark, and operations research.
+- [Voice AI Lab](https://github.com/sinaghadermarzi/voice-ai-lab) — practical experiments across speech recognition, speech generation, diarization, voice cloning, streaming, and realtime voice systems.
+- [Frontend Lab](https://github.com/sinaghadermarzi/frontend-lab) — understanding the modern web stack by rebuilding one application from HTML through React, Next.js, React Native, auth, and shared clients.
 
 ## Writing
 
