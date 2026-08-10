@@ -19,4 +19,4 @@ Labs are where I use experiments to learn: notebooks, controlled experiments, sm
 
 - [Frontend Lab](/labs/frontend-lab/) — rebuilding one notes application across HTML, DOM scripting, HTTP, TypeScript/Vite, React, Next.js, React Native, auth, and shared clients to understand why each layer exists.
 
-The lab format is part of how I learn: **question → experiment → learning → recorded mental model**.
+The lab format is part of how I learn: **question → experiment → learning → recorded notes**.
