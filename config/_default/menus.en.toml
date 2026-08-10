@@ -1,61 +1,32 @@
 # -- Main Menu --
-# The main menu is displayed in the header at the top of the page.
-# Acceptable parameters are name, pageRef, page, url, title, weight.
-#
-# The simplest menu configuration is to provide:
-#   name = The name to be displayed for this menu link
-#   pageRef = The identifier of the page or section to link to
-#
-# By default the menu is ordered alphabetically. This can be
-# overridden by providing a weight value. The menu will then be
-# ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Updates"
-  pageRef = "updates"
+  name = "Work"
+  pageRef = "work"
   weight = 10
 
 [[main]]
-  name = "Blog"
-#  url = "https://blog.sina.page"
-	pageRef = "Blog"
-  weight = 15
+  name = "Writing"
+  pageRef = "writing"
+  weight = 20
 
-# [[main]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20
+[[main]]
+  name = "Labs"
+  pageRef = "labs"
+  weight = 30
 
-# [[main]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 30
-
-
-#[[main]]
-  #name = "CV"
-  #pageRef = "cv"
-  #weight = 40
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 40
 
 [[main]]
   identifier = "appearance"
-  weight = 3
+  weight = 90
   [main.params]
     action = "appearance"
 
-[[main]]
-  identifier = "search"
-  weight = 99
-  [main.params]
-    action = "search"
-
-
-
-# -- Footer Menu --
-# The footer menu is displayed at the bottom of the page, just before
-# the copyright notice. Configure as per the main menu above.
-
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+[[footer]]
+  name = "CV"
+  pageRef = "cv"
+  weight = 10
