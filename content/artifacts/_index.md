@@ -1,5 +1,5 @@
 ---
-title: "Labs"
+title: "Artifacts"
 description: "Executable investigations into AI systems, machine learning, and software."
 ---
 

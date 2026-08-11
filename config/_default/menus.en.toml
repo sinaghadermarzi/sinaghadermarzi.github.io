@@ -6,12 +6,12 @@
   weight = 10
 
 [[main]]
-  name = "Writing"
+  name = "Thoughts"
   pageRef = "writing"
   weight = 20
 
 [[main]]
-  name = "Labs"
+  name = "Artifacts"
   pageRef = "labs"
   weight = 30
 
