@@ -7,12 +7,12 @@
 
 [[main]]
   name = "Thoughts"
-  pageRef = "writing"
+  pageRef = "thoughts"
   weight = 20
 
 [[main]]
   name = "Artifacts"
-  pageRef = "labs"
+  pageRef = "artifacts"
   weight = 30
 
 [[main]]
