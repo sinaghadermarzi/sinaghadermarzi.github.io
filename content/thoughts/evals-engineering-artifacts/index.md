@@ -1,5 +1,6 @@
 ---
 title: "Evals Are the New Engineering Artifacts"
+date: 2026-05-31
 description: "How AI systems change the role of specifications and tests."
 ---
 
