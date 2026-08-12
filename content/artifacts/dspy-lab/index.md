@@ -1,5 +1,6 @@
 ---
 title: "DSPy Lab"
+date: 2026-08-04
 description: "Learning LLM programming from first principles."
 ---
 
