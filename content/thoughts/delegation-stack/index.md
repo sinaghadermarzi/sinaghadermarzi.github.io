@@ -4,10 +4,6 @@ date: 2026-08-09
 description: "How AI expands the space of tasks we can delegate."
 ---
 
-# Delegation Is a Capability
-
-*Part 2 of Notes on Cognitive Infrastructure.*
-
 Somewhere in Anthropic's production stack there is a prompt that teaches one of the most capable models on Earth how to be a middle manager. It spells out staffing policy by hand: simple fact-finding gets one agent and three to ten tool calls; a direct comparison gets two to four subagents with ten to fifteen calls each; complex research gets ten or more subagents with clearly divided responsibilities ([How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system)). They wrote those rules because, without them, the lead agent did what every new manager does — early versions spawned fifty subagents for simple queries ([the review's account of the system](../docs/05-multi-agent-patterns.md)).
 
 Sit with the asymmetry for a second. We spend staggering amounts of post-training compute teaching models to follow instructions, to reason, and to use tools — the three canonical capabilities of the modern LLM. And then, when we want a model to manage other models, we write it a memo. I've come to think the memo is a fossil in the making. Delegation is the fourth capability: it is trainable by the same recipe that produced the other three, and the 2025–26 literature shows the training has already quietly begun.

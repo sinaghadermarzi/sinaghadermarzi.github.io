@@ -4,8 +4,6 @@ date: 2026-07-29
 description: "Thinking about evaluation resolution and signal quality."
 ---
 
-# The Resolution of the Instrument
-
 Somewhere this week, a 99th-percentile engineer is being rejected by an interview loop that cannot tell her apart from a 90th-percentile one. Nobody in the room is lying and nobody is incompetent; the loop simply ran out of measurement. Above a certain level of ability, every candidate solves the graph problem, communicates clearly, and says sensible things about trade-offs — additional true skill produces no distinguishable observation. The interview has saturated, the way a photodetector saturates in bright light, and the company will nonetheless walk away believing it has learned something precise about her.
 
 I've come to think this is not a story about interviews. It is a story about instruments, and claims of measurement, and it applies with uncomfortable exactness to how we evaluate AI systems today.
@@ -96,6 +94,3 @@ What convinces me this is feasible is that nearly every piece of the machinery a
 
 The instrument view won't tell you whom to hire or which model to ship. It tells you something quieter and, I think, more durable: before you trust a number, ask what the device that produced it has demonstrably resolved — and stop paying for measurements the instrument can no longer make.
 
----
-
-*If you want to go deeper:* the evidence behind the AI half of this essay is in [evaluation and evidence](../docs/08-evaluation-and-evidence.md) (benchmark lifecycle, contamination, pass^k, HAL), [reflection, judges, and adversarial patterns](../docs/04-reflection-judge-adversarial.md) (judge biases, juries, reliability-without-validity), [agentic coding](../docs/07-agentic-coding.md) (the full SWE-bench story), and [agent memory](../docs/11-agent-memory.md) (the LoCoMo forensics). For the honest accounting of where these ideas sit relative to psychometrics, decision theory, and hiring science, see [the prior-art map](05-prior-art-map.md).

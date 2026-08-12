@@ -1,9 +1,10 @@
 ---
 title: "Mircro Researchers: Research as a Standing Process"
+date: 2026-06-29
 ---
-# Micro-Researchers: Research as a Standing Process
 
-Ask a deep-research product a hard question and it does something genuinely impressive: it plans, browses, backtracks, reads a few hundred pages, and hands you a cited report about twenty minutes later. Then it forgets the question ever existed. Ask again next month and it starts from zero, re-crawls the same sources, and rebuilds the same bibliography — a bibliography that, measured across deployed systems, carries [citation hallucination rates of 11–57%, with 3–13% of cited URLs fabricated and 5–18% broken](../docs/10-frontier.md). These systems are also [unreliable at revising their own reports across turns](https://arxiv.org/pdf/2601.13217), so you can't even hand the old report back and ask for an update.
+
+Ask a deep-research product a hard question and it does something genuinely impressive: it plans, browses, backtracks, reads a few hundred pages, and hands you a cited report about twenty minutes later. Then it forgets the question ever existed. Ask again next month and it starts from zero, re-crawls the same sources, and rebuilds the same bibliography — a bibliography that, measured across deployed systems, carries citation hallucination rates of 11–57%, with 3–13% of cited URLs fabricated and 5–18% broken. These systems are also [unreliable at revising their own reports across turns](https://arxiv.org/pdf/2601.13217), so you can't even hand the old report back and ask for an update.
 
 The error rates will improve. What interests me is the shape of the thing: research compressed into a burst, then amnesia. Because almost none of the questions I actually want researched are twenty-minute questions.
 
@@ -80,11 +81,3 @@ Three ingredients, all of them trending the right way.
 *Delegation as a capability.* Someone has to decide that this hypothesis deserves a watcher, that a small model suffices for this observation, that these two researchers should merge. That is precisely the **fourth capability** — decomposition, capability matching, budget allocation, verification — argued in [the second post in this series](./02-delegation-is-a-capability.md). The underlying bet — that serious epistemic work survives being factored into small tasks executed by agents that never see the whole problem — is [Ought's factored cognition hypothesis](https://ought.org/research/factored-cognition), and their argument for [supervising process rather than outcomes where outcomes are out of reach](https://ought.org/updates/2022-04-06-process) describes the standing-question regime exactly: the outcome arrives on the world's schedule, so the process is all there is to supervise. A micro-researcher fleet is delegation running as a standing process: the orchestrator's **theory of capability** decides who watches, and its budget rule decides how often.
 
 And underneath all of it sits the principle this series started with. The **Evaluative Efficiency Principle** from [the first post](./01-the-resolution-of-the-instrument.md) says an evaluation is justified only when the expected decision-relevant information it adds exceeds the full cost of obtaining it. A micro-researcher is that principle compiled into a daemon: an evaluation that knows when it isn't worth running. The [evaluation literature](../docs/08-evaluation-and-evidence.md) is one long catalog of what happens when measurement runs cost-blind — the deepest thing a research process can know about itself is that, right now, the most informative action per dollar is to sleep.
-
-## If you want to go deeper
-
-- [The frontier doc](../docs/10-frontier.md) — deep research agents and their citation-hallucination record, the co-scientist, and why capability follows verifiability.
-- [The agent-memory doc](../docs/11-agent-memory.md) — sleep-time compute, consolidation-beats-retrieval, files-first memory, and memory poisoning.
-- [The evaluation doc](../docs/08-evaluation-and-evidence.md) — the cost-aware measurement discipline this architecture presumes.
-- [Lindley (1956)](https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-27/issue-4/On-a-Measure-of-the-Information-Provided-by-an-Experiment/10.1214/aoms/1177728069.full), [Modern Bayesian Experimental Design](https://arxiv.org/abs/2302.14545), and [Settles' active learning survey](https://burrsettles.com/pub/settles.activelearning.pdf) — the seventy-year-old formal core.
-- [The prior-art map](./05-prior-art-map.md) — the full accounting of neighbors, from living reviews and pharmacovigilance to deliberation scheduling, BDI architectures, and ambient agents.
