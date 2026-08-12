@@ -25,8 +25,3 @@
   weight = 90
   [main.params]
     action = "appearance"
-
-[[footer]]
-  name = "CV"
-  pageRef = "cv"
-  weight = 10
