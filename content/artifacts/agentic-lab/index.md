@@ -1,5 +1,6 @@
 ---
 title: "Agentic Systems Lab"
+date: 2026-07-18
 description: "Executable patterns for modern agentic systems."
 ---
 

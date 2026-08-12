@@ -1,5 +1,6 @@
 ---
 title: "LLM Text Generation Lab"
+date: 2026-07-19
 description: "Decoding and inference-time computation, from provider controls to local generation loops."
 ---
 

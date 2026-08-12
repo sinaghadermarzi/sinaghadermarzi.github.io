@@ -1,5 +1,6 @@
 ---
 title: "LLM Post-Training Lab"
+date: 2026-07-07
 description: "Experiments comparing SFT, DPO, PPO, and GRPO."
 ---
 

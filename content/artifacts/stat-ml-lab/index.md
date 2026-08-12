@@ -1,5 +1,6 @@
 ---
 title: "Stat-ML Lab"
+date: 2026-07-20
 description: "Simulation-heavy applied statistics and machine learning."
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Frontend Lab"
+date: 2026-08-06
 description: "Understanding the web stack by rebuilding one application layer by layer."
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Voice AI Lab"
+date: 2026-07-21
 description: "Hands-on experiments across speech recognition, speech generation, and realtime voice systems."
 ---
 
