@@ -1,5 +1,6 @@
 ---
 title: "How Much Can an Interview Actually Measure?"
+draft: true
 date: 2026-07-29
 description: "Thinking about evaluation resolution and signal quality."
 ---
