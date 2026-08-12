@@ -2,6 +2,12 @@
 # These settings are required for the theme to function.
 
 [goldmark]
+[goldmark.extensions]
+[goldmark.extensions.passthrough]
+  enable = true
+[goldmark.extensions.passthrough.delimiters]
+  block = [['\\[', '\\]'], ['$$', '$$']]
+  inline = [['\\(', '\\)']]
 [goldmark.renderer]
   unsafe = true
 
