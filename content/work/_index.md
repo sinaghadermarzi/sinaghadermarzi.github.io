@@ -1,5 +1,6 @@
 ---
 title: "Work"
+showDate: false
 ---
 
 ## Journal Publications 

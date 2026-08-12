@@ -1,5 +1,6 @@
 ---
 title: "About"
+showDate: false
 ---
 
 I am an AI/ML researcher and engineer interested in building intelligent systems.
