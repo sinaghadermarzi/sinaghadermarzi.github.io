@@ -1,5 +1,6 @@
 ---
 title: "Transfer Learning Lab"
+date: 2026-08-09
 description: "Small experiments on what transfers between neural-network tasks — and what does not."
 ---
 
