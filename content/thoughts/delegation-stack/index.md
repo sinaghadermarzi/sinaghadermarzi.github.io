@@ -1,5 +1,6 @@
 ---
 title: "The New Delegation Stack"
+date: 2026-08-09
 description: "How AI expands the space of tasks we can delegate."
 ---
 
