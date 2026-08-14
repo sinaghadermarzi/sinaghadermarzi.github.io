@@ -2,19 +2,19 @@
 title: "Work"
 ---
 
-# AI/ML in health data 
+## AI/ML in health data 
 
-## Entity Resolution on 100s of millions of patient records
+### Entity Resolution on 100s of millions of patient records
 **2026** Linking patient records at scale with a hybrid approach combining contrastive learning and deterministic rules
 
-## Named Entity Recognition on billions of clinical notes 
+### Named Entity Recognition on billions of clinical notes 
 
-# Machine Learning in single cell biology
+## Machine Learning in single cell biology
 
 **2023**.  Cell2Sentence: Teaching Large Language Models the Language of Biology
  -- [ICML 2024](https://proceedings.mlr.press/v235/levine24a.html)
 
-# Machine Learning for prediction of protein structure and biologial function
+## Machine Learning for prediction of protein structure and biologial function
 
 **2021**.  DNAgenie: accurate prediction of DNA-type-specific binding residues in protein sequences
  -- [_Briefings in Bioinformatics_](https://doi.org/10.1093/bib/bbab336)
