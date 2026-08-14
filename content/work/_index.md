@@ -9,7 +9,7 @@ title: "Work"
 2026- Linking patient records at scale with a hybrid approach combining contrastive learning and deterministic rules
 
 ### Named Entity Recognition on billions of clinical notes 
-
+in progress
 
 ## Machine Learning in single cell biology
 
