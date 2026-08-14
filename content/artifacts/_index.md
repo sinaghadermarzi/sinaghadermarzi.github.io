@@ -3,7 +3,9 @@ title: "Artifacts"
 description: "Executable investigations into AI systems, machine learning, and software."
 ---
 
-Labs are where I turn questions into executable artifacts: notebooks, controlled experiments, small systems, and reproducible comparisons.
+
+# Labs
+The lab format is part of how I learn: **question → experiment → learning → recorded notes**.
 
 - [LLM Post-Training Lab](https://github.com/sinaghadermarzi/llm-posttrain-lab) — controlled SFT, DPO, PPO, and GRPO experiments around reward, KL, capability retention, diversity, and preference behavior.
 - [Agentic Systems Lab](https://github.com/sinaghadermarzi/agentic-lab) — agent patterns, workflow spines, delegation, verification, human gates, MCP, A2A, and multi-agent orchestration.
@@ -14,4 +16,4 @@ Labs are where I turn questions into executable artifacts: notebooks, controlled
 - [Voice AI Lab](https://github.com/sinaghadermarzi/voice-ai-lab) — practical experiments across speech recognition, speech generation, diarization, voice cloning, streaming, and realtime voice systems.
 - [Frontend Lab](https://github.com/sinaghadermarzi/frontend-lab) — understanding the modern web stack by rebuilding one application from HTML through React, Next.js, React Native, auth, and shared clients.
 
-The lab format is part of how I learn: **question → experiment → learning → recorded notes**.
+

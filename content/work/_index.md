@@ -2,7 +2,19 @@
 title: "Work"
 ---
 
-## Journal Publications 
+# AI/ML in health data 
+
+## Entity Resolution on 100s of millions of patient records
+**2026** Linking patient records at scale with a hybrid approach combining contrastive learning and deterministic rules
+
+## Named Entity Recognition on billions of clinical notes 
+
+# Machine Learning in single cell biology
+
+**2023**.  Cell2Sentence: Teaching Large Language Models the Language of Biology
+ -- [ICML 2024](https://proceedings.mlr.press/v235/levine24a.html)
+
+# Machine Learning for prediction of protein structure and biologial function
 
 **2021**.  DNAgenie: accurate prediction of DNA-type-specific binding residues in protein sequences
  -- [_Briefings in Bioinformatics_](https://doi.org/10.1093/bib/bbab336)
@@ -22,13 +34,9 @@ title: "Work"
 **2019**.  Sequence-derived markers of drug targets and potentially druggable human proteins
  -- [_Frontiers in genetics_](https://doi.org/10.3389/fgene.2019.01075)
 
-
-## Conference Publications
 **2019**.  Disordered Function Conjunction: On the in-silico function annotation of intrinsically disordered regions
  -- [_PACIFIC SYMPOSIUM ON BIOCOMPUTING 2020_](https://doi.org/10.1142/9789811215636_0016)
 
-
-## Book Chapters
 **2019**.  Computational prediction of functions of intrinsically disordered regions. 
  -- [_Progress in Molecular Biology and Translational Science_](https://doi.org/10.1016/bs.pmbts.2019.04.006)
 
