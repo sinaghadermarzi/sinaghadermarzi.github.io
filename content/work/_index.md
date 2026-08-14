@@ -2,17 +2,17 @@
 title: "Work"
 ---
 
+
 ## AI/ML in health data 
 
 ### Entity Resolution on 100s of millions of patient records
 **2026** Linking patient records at scale with a hybrid approach combining contrastive learning and deterministic rules
 
 ### Named Entity Recognition on billions of clinical notes 
- 
 
 
 
-
+    
 ## Machine Learning in single cell biology
 Cell2Sentence explores how biological measurements can be represented as sequences that language models can process. The project adapts LLM ideas to single-cell biology, connecting representation learning, natural language modeling, and biological discovery.
 **2023**.  Cell2Sentence: Teaching Large Language Models the Language of Biology
