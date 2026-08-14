@@ -4,7 +4,7 @@ description: "Executable investigations into AI systems, machine learning, and s
 ---
 
 
-# Labs
+## Labs
 The lab format is part of how I learn: **question → experiment → learning → recorded notes**.
 
 - [LLM Post-Training Lab](https://github.com/sinaghadermarzi/llm-posttrain-lab) — controlled SFT, DPO, PPO, and GRPO experiments around reward, KL, capability retention, diversity, and preference behavior.
