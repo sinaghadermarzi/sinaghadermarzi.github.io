@@ -16,8 +16,7 @@ title: "Work"
 
 ## Machine Learning in single cell biology
 
-**2024**.  Cell2Sentence: Teaching Large Language Models the Language of Biology
- -- [ICML 2024](https://proceedings.mlr.press/v235/levine24a.html)
+**2024**.  Cell2Sentence: Teaching Large Language Models the Language of Biology -- [ICML 2024](https://proceedings.mlr.press/v235/levine24a.html)
 - 
 
 
