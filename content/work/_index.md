@@ -9,13 +9,21 @@ title: "Work"
 
 ### Named Entity Recognition on billions of clinical notes 
 
-## Machine Learning in single cell biology
 
+
+
+
+
+## Machine Learning in single cell biology
+Cell2Sentence explores how biological measurements can be represented as sequences that language models can process. The project adapts LLM ideas to single-cell biology, connecting representation learning, natural language modeling, and biological discovery.
 **2023**.  Cell2Sentence: Teaching Large Language Models the Language of Biology
  -- [ICML 2024](https://proceedings.mlr.press/v235/levine24a.html)
 
-## Machine Learning for prediction of protein structure and biologial function
 
+
+
+## Sequence-based machine learning for protein structure, disorder, binding, and function
+During my PhD, I worked on machine-learning methods that infer biological and structural properties directly from protein sequence.
 **2021**.  DNAgenie: accurate prediction of DNA-type-specific binding residues in protein sequences
  -- [_Briefings in Bioinformatics_](https://doi.org/10.1093/bib/bbab336)
 
