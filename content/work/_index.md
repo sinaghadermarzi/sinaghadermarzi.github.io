@@ -2,13 +2,11 @@
 title: "Work"
 ---
 
-## AI/ML in health data 
-
-### Entity Resolution on 100s of millions of patient records
+## Entity Resolution on 100s of millions of patient records
 
 > 2026- Linking patient records at scale with a hybrid approach combining contrastive learning and deterministic rules
 
-### Named Entity Recognition on billions of clinical notes 
+## Named Entity Recognition on billions of clinical notes 
 > in progress
 
 ## Machine Learning and Large Language Models (LLMs) in single cell biology
