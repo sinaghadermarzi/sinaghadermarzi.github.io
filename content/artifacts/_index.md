@@ -5,7 +5,7 @@ description: "Executable investigations into AI systems, machine learning, and s
 
 
 ## Labs
-The lab format is part of how I learn: experiment → learning → recorded notes**.
+The lab format is part of how I learn: experiment → learning → recorded notes.
 
 - [LLM Post-Training Lab](https://github.com/sinaghadermarzi/llm-posttrain-lab) — controlled SFT, DPO, PPO, and GRPO experiments around reward, KL, capability retention, diversity, and preference behavior.
 - [Agentic Systems Lab](https://github.com/sinaghadermarzi/agentic-lab) — agent patterns, workflow spines, delegation, verification, human gates, MCP, A2A, and multi-agent orchestration.
