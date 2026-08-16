@@ -11,7 +11,7 @@ title: "Work"
 ### Named Entity Recognition on billions of clinical notes 
 in progress
 
-## Machine Learning in single cell biology
+## Machine Learning and Large Language Models in single cell biology
 
 2024- Cell2Sentence: Teaching Large Language Models the Language of Biology -- [ICML 2024](https://proceedings.mlr.press/v235/levine24a.html)
 
