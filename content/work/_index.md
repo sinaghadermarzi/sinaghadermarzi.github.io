@@ -6,24 +6,22 @@ title: "Work"
 
 ### Entity Resolution on 100s of millions of patient records
 
-2026- Linking patient records at scale with a hybrid approach combining contrastive learning and deterministic rules
+> 2026- Linking patient records at scale with a hybrid approach combining contrastive learning and deterministic rules
 
 ### Named Entity Recognition on billions of clinical notes 
-in progress
+> in progress
 
 ## Machine Learning and Large Language Models (LLMs) in single cell biology
 
-2024- Cell2Sentence: Teaching Large Language Models the Language of Biology -- [ICML 2024](https://proceedings.mlr.press/v235/levine24a.html)
+> 2024- Cell2Sentence: Teaching Large Language Models the Language of Biology -- [ICML 2024](https://proceedings.mlr.press/v235/levine24a.html)
 
 
 ## Sequence-based machine learning for protein structure, disorder, binding, and function
-During my PhD, I worked on machine-learning methods that infer biological and structural properties directly from protein sequence.
 
-2021-  DNAgenie: accurate prediction of DNA-type-specific binding residues in protein sequences
- -- [_Briefings in Bioinformatics_](https://doi.org/10.1093/bib/bbab336)
 
-2021- XRRpred: accurate predictor of crystal structure quality from protein sequence
- -- [_Bioinformatics_](https://doi.org/10.1093/bioinformatics/btab509)
+> 2021-  DNAgenie: accurate prediction of DNA-type-specific binding residues in protein sequences -- [_Briefings in Bioinformatics_](https://doi.org/10.1093/bib/bbab336)
+
+> 2021- XRRpred: accurate predictor of crystal structure quality from protein sequence -- [_Bioinformatics_](https://doi.org/10.1093/bioinformatics/btab509)
 
 2021- flDPnn: Accurate intrinsic disorder prediction with putative propensities of disorder functions
  -- [_Nature communications_](https://doi.org/10.1038/s41467-021-24773-7)
