@@ -17,8 +17,8 @@ dateFormat = "2 January 2006"
 [params.author]
   name = "Sina Ghadermarzi"
   image = "img/sina.jpg"
-  headline = "Applied AI/ML Scientist"
-  bio = "Applied AI/ML Scientist building intelligent systems that solve real-world problems."
+  headline = "AI/ML Engineer and Researcher"
+  bio = ""
   links = [
     # { email = "mailto:hello@your_domain.com" },
     # { link = "https://link-to-some-website.com/" },
