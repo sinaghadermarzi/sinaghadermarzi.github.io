@@ -1,0 +1,44 @@
+/* Hover labels under the profile social icons. The label is absolutely
+   positioned and the row reserves space for it, so nothing shifts on hover. */
+
+.social-link {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1.15rem;
+}
+
+.social-link-label {
+  position: absolute;
+  bottom: 0.15rem;
+  left: 50%;
+  transform: translate(-50%, -0.2rem);
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  font-size: 0.7rem;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: rgb(var(--color-primary-700));
+  transition:
+    opacity 120ms ease-out,
+    transform 120ms ease-out;
+}
+
+.dark .social-link-label {
+  color: rgb(var(--color-primary-400));
+}
+
+.social-link:hover .social-link-label,
+.social-link:focus-within .social-link-label {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .social-link-label {
+    transition: none;
+  }
+}
