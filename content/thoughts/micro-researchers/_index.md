@@ -1,5 +1,5 @@
 ---
-title: "Mircro Researchers: Research as a Standing Process"
+title: "Micro Researchers: Research as a Standing Process"
 date: 2026-06-29
 ---
 

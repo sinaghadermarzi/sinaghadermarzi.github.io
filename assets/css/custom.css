@@ -31,8 +31,9 @@
   color: rgb(var(--color-primary-400));
 }
 
-.social-link:hover .social-link-label,
-.social-link:focus-within .social-link-label {
+/* Hover only. Focus-based rules leave the label stuck after a click, because
+   the icons open in a new tab and focus is restored when you switch back. */
+.social-link:hover .social-link-label {
   opacity: 1;
   transform: translate(-50%, 0);
 }

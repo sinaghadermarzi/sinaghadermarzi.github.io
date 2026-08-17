@@ -16,7 +16,7 @@ Summary of previous works
 
 > in progress
 
-## Machine Learning and Large Language Models (LLMs) in single cell biology
+## Machine Learning and Large Language Models (LLMs) in single-cell biology
 
 
 ![Single Cell with ML / LLM](single_cell_ml_llm.png)
