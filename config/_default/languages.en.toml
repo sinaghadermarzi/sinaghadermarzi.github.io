@@ -6,13 +6,13 @@ weight = 1
 rtl = false
 
 title = "Sina's Page"
-description = " "
 copyright = " "
 
 dateFormat = "2 January 2006"
 
 [params]
   # mainSections = ["section1", "section2"]
+  description = "Sina Ghadermarzi — AI/ML engineer and researcher. Clinical NLP at scale, entity resolution, agentic systems, and evaluation."
 
 [params.author]
   name = "Sina Ghadermarzi"
