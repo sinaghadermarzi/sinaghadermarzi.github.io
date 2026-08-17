@@ -8,7 +8,7 @@ description: "Executable investigations into AI systems, machine learning, and s
 The lab format is part of how I learn: experiment → learning → recorded notes.
 
 - [LLM Post-Training Lab](https://github.com/sinaghadermarzi/llm-posttrain-lab) — controlled SFT, DPO, PPO, and GRPO experiments around reward, KL, capability retention, diversity, and preference behavior.
-- [Agentic Systems Lab](https://github.com/sinaghadermarzi/agentic-lab) — agent patterns, workflow spines, delegation, verification, human gates, MCP, A2A, and multi-agent orchestration.
+- [Agentic Systems Lab](https://github.com/sinaghadermarzi/agentic-lab) — agent patterns, workflow spines, delegation, verification, human gates, MCP, A2A, and multi-agent orchestration. Every chapter runs live with costs measured on real runs, hand-built machinery drift-checked byte-for-byte against the packaged library, and every external claim backed by a registered citation.
 - [Transfer Learning Lab](https://github.com/sinaghadermarzi/transfer-learning-lab) — experiments on transferability, negative transfer, forgetting, multi-task interference, modular composition, and self-supervision.
 - [DSPy Lab](https://github.com/sinaghadermarzi/dspy-lab) — LLM programming as specification, evaluation, and optimization; from signatures and modules to agents and observability.
 - [LLM Text Generation Lab](https://github.com/sinaghadermarzi/llm-textgen-lab) — decoding, sampling, reasoning controls, self-consistency, adaptive compute, verifier loops, and search.
