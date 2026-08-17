@@ -1,7 +1,7 @@
 ---
 title: "Work"
 ---
-
+Summary of previous works
 
 ### Entity Resolution on 100s of millions of patient records
 
@@ -17,6 +17,10 @@ title: "Work"
 > in progress
 
 ### Machine Learning and Large Language Models (LLMs) in single cell biology
+
+
+![Single CEll with ML / LLM](single_cell_ml_llm.png)
+
 
 > 2024- Cell2Sentence: Teaching Large Language Models the Language of Biology -- [ICML 2024](https://proceedings.mlr.press/v235/levine24a.html)
 
