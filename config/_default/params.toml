@@ -12,13 +12,16 @@ autoSwitchAppearance = true
 enableSearch = false
 enableCodeCopy = false
 
+# Default social-share image (og:image / twitter:image) for pages that don't
+# set their own; served from static/img/sina.jpg.
+images = ["img/sina.jpg"]
+
 # robots = ""
 
 
 
 [header]
   layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
-  # logo = "img/logo.jpg"
   showTitle = true
 
 
