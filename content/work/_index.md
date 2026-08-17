@@ -24,7 +24,7 @@ Free-text clinical notes hold much of the signal in the medical record. This lin
 >
 > Detecting and removing protected health information (PHI) from clinical notes at scale. The interesting part is the workflow: the annotation guideline that steers the LLM is treated as an optimizable artifact — expressed as a [DSPy](https://dspy.ai/) program and refined with reflective prompt evolution ([GEPA](https://arxiv.org/abs/2507.19457)) against labeled evaluation sets — so guideline changes are measured rather than argued about.
 
-## Machine Learning and Large Language Models (LLMs) in single-cell biology
+## Postdoc at Yale: Machine Learning and Large Language Models (LLMs) in single-cell biology
 
 Applying language models and perturbational analysis to single-cell transcriptomics — from teaching LLMs to read gene expression to mapping how patient tumors resist immunotherapy.
 
@@ -38,9 +38,9 @@ Applying language models and perturbational analysis to single-cell transcriptom
 >
 > C2S turns single-cell gene-expression profiles into "cell sentences" so ordinary language models can be fine-tuned on them directly. Fine-tuned models generate biologically valid cells from a cell-type prompt, annotate cell types, and keep their text abilities.
 
-## Sequence-based machine learning for protein structure, disorder, binding, and function
+## PhD-era work: Sequence-based machine learning for protein structure, disorder, binding, and function
 
-PhD-era work with the Kurgan Lab at VCU: predicting structure, disorder, binding, and function directly from protein sequence, with several tools validated in the community-run CAID assessment.
+PhD-era work: predicting structure, disorder, binding, and function directly from protein sequence, with several tools validated in the community-run CAID assessment.
 
 ![Protein Sequence ML](protein_sequence_ml.png)
 
