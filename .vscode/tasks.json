@@ -1,0 +1,62 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "hugo: server",
+      "detail": "Start the Hugo dev server on http://localhost:1313",
+      "type": "shell",
+      "command": "hugo",
+      "args": ["server", "--buildDrafts", "--buildFuture", "--port", "1313"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": {
+        "pattern": [{ "regexp": "^__never_matches__$", "file": 1, "message": 1 }],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Start building sites",
+          "endsPattern": "Web Server is available at"
+        }
+      }
+    },
+    {
+      "label": "hugo: stop server",
+      "detail": "Kill any running Hugo dev server",
+      "type": "shell",
+      "command": "echo",
+      "args": ["stopped"],
+      "linux": { "command": "pkill", "args": ["-f", "hugo server"] },
+      "osx": { "command": "pkill", "args": ["-f", "hugo server"] },
+      "windows": {
+        "command": "taskkill",
+        "args": ["/IM", "hugo.exe", "/F"]
+      },
+      "presentation": { "reveal": "never", "panel": "shared" },
+      "problemMatcher": []
+    },
+    {
+      "label": "hugo: build (production)",
+      "detail": "Run the exact command CI uses, output to ./public",
+      "type": "shell",
+      "command": "hugo",
+      "args": ["--gc", "--minify", "--baseURL", "https://sina.page/"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": "build",
+      "presentation": { "reveal": "always", "panel": "dedicated" },
+      "problemMatcher": []
+    },
+    {
+      "label": "theme: update Congo",
+      "detail": "Pull the latest Congo release and re-vendor it. Review and commit the diff.",
+      "type": "shell",
+      "command": "hugo mod get -u github.com/jpanther/congo/v2 && hugo mod tidy && hugo mod vendor && hugo mod graph",
+      "options": { "cwd": "${workspaceFolder}" },
+      "presentation": { "reveal": "always", "panel": "dedicated" },
+      "problemMatcher": []
+    }
+  ]
+}

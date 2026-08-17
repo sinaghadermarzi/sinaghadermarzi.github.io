@@ -8,9 +8,10 @@
 # Hugo build output
 /public/
 /resources/_gen/
+.hugo_build.lock
 
-# Hugo module/vendor cache
-/_vendor/
+# _vendor/ is intentionally committed: it pins the Congo theme so builds
+# never depend on the Go module proxy. Refresh with `hugo mod vendor`.
 /vendor/
 
 # Go / Hugo module files
@@ -22,8 +23,11 @@ node_modules/
 package-lock.json
 yarn.lock
 
-# IDE/editor settings
-.vscode/
+# IDE/editor settings - share the F5 preview config, ignore personal prefs
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
 .idea/
 *.swp
 *.swo
