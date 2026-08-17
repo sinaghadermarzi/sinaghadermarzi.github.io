@@ -15,11 +15,19 @@
         "clear": true
       },
       "problemMatcher": {
-        "pattern": [{ "regexp": "^__never_matches__$", "file": 1, "message": 1 }],
+        "owner": "hugo",
+        "fileLocation": ["autoDetect", "${workspaceFolder}"],
+        "pattern": {
+          "regexp": "^(?:ERROR|Error:)\\s+.*?\"([^\"]+):(\\d+):(\\d+)\":\\s*(.*)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "message": 4
+        },
         "background": {
           "activeOnStart": true,
-          "beginsPattern": "Start building sites",
-          "endsPattern": "Web Server is available at"
+          "beginsPattern": "^(?:Start building sites|Change detected)",
+          "endsPattern": "(?:Web Server is available at|Total in \\d+ ms)"
         }
       }
     },
