@@ -1,11 +1,11 @@
 ---
 title: "Work"
 ---
+![Hybrid entity resolution pipeline](entity_resolution.png "Hybrid entity resolution pipeline")
 
 ### Entity Resolution on 100s of millions of patient records
-> 2026- Linking patient records at scale with a hybrid approach combining contrastive learning and deterministic rules
+> 2026- Linking patient records at scale with a hybrid approach combining contrastive learning and deterministic rules -- [Biology Methods and Protocols](https://doi.org/10.1093/biomethods/bpag009)
 
-![Hybrid entity resolution pipeline](entity_resolution.png "Hybrid entity resolution pipeline")
 
 ### Named Entity Recognition on billions of clinical notes 
 > in progress
