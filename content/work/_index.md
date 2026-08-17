@@ -1,13 +1,19 @@
 ---
 title: "Work"
 ---
-![Hybrid entity resolution pipeline](entity_resolution.png "Hybrid entity resolution pipeline")
+
 
 ### Entity Resolution on 100s of millions of patient records
+
+![Hybrid entity resolution pipeline](entity_resolution.png)
+
 > 2026- Linking patient records at scale with a hybrid approach combining contrastive learning and deterministic rules -- [Biology Methods and Protocols](https://doi.org/10.1093/biomethods/bpag009)
 
 
 ### Named Entity Recognition on billions of clinical notes 
+
+![Clinical Notes NER](clinical_notes_NER.png)
+
 > in progress
 
 ### Machine Learning and Large Language Models (LLMs) in single cell biology
