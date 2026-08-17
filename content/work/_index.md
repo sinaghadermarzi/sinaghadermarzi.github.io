@@ -3,20 +3,20 @@ title: "Work"
 ---
 Summary of previous works
 
-### Entity Resolution on 100s of millions of patient records
+## Entity Resolution on 100s of millions of patient records
 
 ![Hybrid entity resolution pipeline](entity_resolution.png)
 
 > 2026- Linking patient records at scale with a hybrid approach combining contrastive learning and deterministic rules -- [Biology Methods and Protocols](https://doi.org/10.1093/biomethods/bpag009)
 
 
-### Named Entity Recognition on billions of clinical notes 
+## Named Entity Recognition on billions of clinical notes 
 
 ![Clinical Notes NER](clinical_notes_NER.png)
 
 > in progress
 
-### Machine Learning and Large Language Models (LLMs) in single cell biology
+## Machine Learning and Large Language Models (LLMs) in single cell biology
 
 
 ![Single Cell with ML / LLM](single_cell_ml_llm.png)
@@ -26,7 +26,7 @@ Summary of previous works
 
 > 2025- Perturbational single-cell RNA sequencing of patient tumors in Merkel cell and small cell lung carcinomas -- [Journal of Clinical Oncology](https://doi.org/10.1200/JCO.2025.43.16_suppl.2520)
 
-### Sequence-based machine learning for protein structure, disorder, binding, and function
+## Sequence-based machine learning for protein structure, disorder, binding, and function
 
 ![Protein Sequence ML](protein_sequence_ml.png)
 
