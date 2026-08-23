@@ -1,0 +1,42 @@
+---
+title: "Knowledge That Stays Alive"
+draft: true
+date: 2026-08-23
+description: "Static notes rot on a measurable schedule; medicine's living systematic reviews prove continuous maintenance works — and warn what it costs."
+---
+
+Somewhere in my knowledge base is a note called something like "state of agent memory evaluation." When I wrote it, six months ago, it was the best compression of the field I could produce. Several of its sentences are now false. Nothing on the page says so. It renders exactly as confidently as the day I wrote it — same prose, same certainty, quietly wrong. Every static knowledge base has this property: the timestamps are honest and the contents pretend the world stopped.
+
+This decay is not a mood; in at least one field it has been measured. [A survival analysis of 100 systematic reviews](https://www.acpjournals.org/doi/10.7326/0003-4819-147-4-200708210-00179) — medicine's most carefully constructed knowledge artifacts — found that 7% were already out of date on the day they were published, 15% within one year, and 23% within two. Median time until a signal that updating was needed: 5.5 years. Those documents are produced by expert teams following explicit protocols. If they rot at that rate, my Markdown files do not stand a chance.
+
+## Medicine already ran the experiment
+
+What interests me is that medicine did not stop at measuring the rot. Since [a 2014 proposal in PLoS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371%2Fjournal.pmed.1001603), it has been building *living systematic reviews*: "high quality, up-to-date online summaries of health research, updated as new research becomes available." The high-water mark was the [Australian National COVID-19 Clinical Evidence Taskforce](https://pmc.ncbi.nlm.nih.gov/articles/PMC9939393/) — 31 health organizations updating national clinical guidelines *weekly*, publishing 37 major versions in the first year, with a median of 27 days from a study's first publication to a changed recommendation. Against a baseline where reviews go stale in years and update in more years, that latency is astonishing. Living knowledge is not speculative. It exists, it works, and humans have operated it under the worst possible conditions.
+
+Then the other half of the story. After 40 months and [more than 180 recommendations across 120 guideline updates, the taskforce was defunded](https://abstracts.cochrane.org/2024-prague-global-evidence-summit/australian-living-covid-19-guidelines-retrospective-critique). The most successful living-knowledge institution ever operated did not die because the idea failed. It died because maintenance is a recurring cost, and recurring costs outlive everyone's enthusiasm. Any proposal for living knowledge bases that does not begin from that datum is fantasy.
+
+## The unit of work is a diff
+
+Look at what a living review actually does each cycle. The search is mechanical. The expensive step is a judgment about *difference*: of everything that appeared, what is genuinely new rather than confirmatory? Which prior conclusion got stronger, weaker, or newly contradicted? What crosses the threshold of mattering? A living knowledge base is a system whose central operation is a **semantic diff** — and I should be clear that diffing knowledge rather than text is old. [PROMPTDIFF](https://www.researchgate.net/publication/2522973_PROMPTDIFF_A_fixed-point_algorithm_for_comparing_ontology_versions) computed structural diffs between ontology versions in 2002. [NewsDiffs](http://newsdiffs.org/) has archived the silent revision histories of news articles since 2012. [WikiFactDiff](https://arxiv.org/abs/2403.14364) literally diffs two snapshots of Wikidata taken two years apart, classifying every fact as new, obsolete, or static. Temporal knowledge graphs such as [Zep's](https://arxiv.org/abs/2501.13956) attach validity intervals to individual facts — though that is a vendor preprint, and its benchmark numbers should be read as claims.
+
+What none of these systems had is a diff predicate that operates at the level of *conclusions*. "Does anything published this month change what this page argues?" is not a keyword match or a triple comparison; it is an arbitrary language-level judgment, and LLMs are the first machinery to make it cheap. Karpathy's [llm-wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) locates the bottleneck exactly: "The tedious part of maintaining a knowledge base is not the reading or the thinking — it's the bookkeeping." But cheap is not the same as reliable — when researchers [re-ran the same LLM extraction tasks repeatedly](https://journals.sagepub.com/doi/10.1177/08944393251404052), runs agreed on extracted values 90% of the time, on supporting quotes 46%, and on reasoning only 30%. Automated liveness, today, means lower cost with a wider error bar, and nobody has measured whether that trade nets out — which is precisely the kind of missing measurement I catalogued in [the missing science of semantic memoization](/thoughts/science-of-semantic-memoization/).
+
+## Updating is harder than appending
+
+There is also a trap inside the update itself. The knowledge-editing literature found that changing a single fact inside a model's weights creates [ripple effects](https://arxiv.org/abs/2307.12976): one edited fact logically implies many others, and current editing methods largely fail to propagate the implications. That is the strongest technical argument *for* living external knowledge — keep the volatile facts in explicit, timestamped, provenance-carrying artifacts instead of weights.
+
+But the same disease reappears one level up. Revise one conclusion in a fifty-paragraph synthesis and other paragraphs quietly continue to assume the old version. A page that has absorbed fifty incremental updates has no coherence guarantee, and as far as I can find, no one has measured whether the N-th patch of a topic page stays as correct as regenerating the page from its sources. I mean that as a real open problem, not a rhetorical hedge: it may be the most decision-relevant unmeasured quantity in this whole design space.
+
+## Not every page deserves a pulse
+
+Medicine's last lesson is about admission. [Cochrane's guidance](https://resources.cochrane.org/sites/resources.cochrane.org/files/uploads/inline-files/Transform/201912_LSR_Revised_Guidance.pdf) restricts living mode to topics that are a priority, where existing evidence is uncertain, *and* where new evidence is arriving fast — three conditions, conjunctive. Generalized:
+
+$$
+\text{alive}(T) \iff \text{stakes}(T)\,\times\,\text{uncertainty}(T)\,\times\,\lambda(T) \;>\; c_{\text{maint}}(T)
+$$
+
+In words: a topic earns a refresh loop only when what is at stake, how unsettled the conclusion is, and the rate at which relevant evidence arrives together outweigh the recurring cost of keeping it current. Everything else should be allowed to remain a dated snapshot. Liveness is an admission decision, subject to the same economics as any other memory write — and the COVID taskforce, which cleared this bar as decisively as any topic ever will, still lasted only 40 months. LLMs push $c_{\text{maint}}$ down dramatically; they do not push it to zero, and the reliability numbers above say some of the savings get repaid in verification.
+
+Deliberately out of scope here: the machinery that would run these loops — refresh cadences, watch lists, the topic as a process rather than a file — which I take up in [a topic is a process, not a file](/thoughts/topics-as-processes/); and the question of when a detected change deserves a human's attention, which is [its own problem](/thoughts/remembering-what-you-care-about/). I have also already argued the process side for research questions in [micro-researchers](/thoughts/micro-researchers/) — research as waiting well, punctuated by cheap observation. This post is that argument's artifact-side complement: not the standing question, but the standing *answer* — the note that knows the world kept moving after it was written.
+
+**What would change my mind:** A controlled comparison showing that regenerating a synthesis from raw sources on demand matches an incrementally maintained page on correctness and coherence at comparable cost — where falling inference prices are pushing — would make living maintenance a premature optimization: let the page die and be reborn per query. Evidence that readers decide just as well from clearly date-stamped static snapshots would do the same from the demand side.

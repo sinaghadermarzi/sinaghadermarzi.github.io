@@ -1,0 +1,46 @@
+---
+title: "Artifact Compatibility"
+draft: true
+date: 2026-08-23
+description: "A measurable replacement for socionics' intertype relations: which cognitive architecture's outputs actually raise which other architecture's performance."
+---
+
+In the 1970s, a Lithuanian economist named [Aušra Augustinavičiūtė](https://en.wikipedia.org/wiki/Au%C5%A1ra_Augustinavi%C4%8Di%C5%ABt%C4%97) built a theory called [socionics](https://en.wikipedia.org/wiki/Socionics): sixteen personality types assembled from Jungian functions and the psychiatrist Antoni Kępiński's notion of "information metabolism," plus something the Western typologies never attempted — a full theory of *intertype relations*, culminating in "duality," the claim that certain pairs of types are maximally complementary information processors. Let me be blunt about its scientific status: socionics has essentially no validation literature meeting mainstream psychometric standards, is routinely characterized as pseudoscientific, and even its one peer-reviewed English academic treatment ([Pietrak 2017](https://www.sciencedirect.com/science/article/abs/pii/S1389041717301365)) is expository rather than validating. I've written elsewhere about why human typologies dissolved under measurement — see [Typology as Clue, Not Blueprint](/thoughts/typologies-as-clues/).
+
+And yet. Buried inside the pseudoscience is a question nobody else was asking: *if minds differ systematically in how they process information, which minds are good inputs for which other minds?* Not "which type is best" — which **couplings** are best. That question is bad science about humans, because human "types" turned out not to be discrete. But artificial cognitive architectures *are* discrete — an agent's persistent store either is a code library or it isn't — and for them, the intertype question stops being astrology and becomes an experiment you could run.
+
+## The matrix
+
+Suppose you have several long-lived agents built on the same base model but externalizing their cognition differently: one accumulates prose syntheses, one a library of executable tools (in the style of [Voyager's skill library](https://arxiv.org/abs/2305.16291)), one a densely linked concept graph, one a provenance-rich episodic log. Each produces artifacts. The question is what those artifacts are worth *to the others*. Define:
+
+$$
+C_{ij} = \mathbb{E}\big[\,\mathrm{perf}_j \mid \text{consuming artifacts from } i\,\big] \;-\; \mathbb{E}\big[\,\mathrm{perf}_j \mid \text{no external artifacts}\,\big]
+$$
+
+In words: $C_{ij}$ is the performance gain architecture $j$ obtains on a shared task stream when it consumes the artifacts architecture $i$ produced, relative to working from its own resources alone. Fill in the whole matrix and you have an empirical, falsifiable replacement for intertype relations — measured in benchmark points and tokens rather than in duality charts.
+
+This isn't a question about metaphors; it has a measurement template in respectable psychology. Wegner's theory of transactive memory (1987, in *Theories of Group Behavior*) describes human couples and teams as directory-plus-specialized-stores systems: each member remembers *who knows what* rather than everything. Transactive-memory research then did the thing socionics never did — it operationalized the coupling, building scales for specialization, credibility, and coordination, and showing that the quality of the shared memory system predicts team performance. Woolley's collective-intelligence work points the same direction: a group's measured intelligence is [not strongly correlated with the average or maximum intelligence of its members](https://doi.org/10.1126/science.1193147), but tracks interaction structure — social sensitivity, turn-taking. In humans, the coupling is the active ingredient. $C_{ij}$ is the proposal to measure the coupling directly for artificial minds, where — unlike in humans — we can rerun the same team with the wiring changed.
+
+As far as I can tell, nobody has done this. I have looked for a published study that measures cross-architecture artifact value — any systematic estimate of "architecture $j$'s gain from architecture $i$'s outputs" — and, as of August 2026, I could not find one. The multi-agent literature varies models, prompts, and roles; the memory literature compares architectures head-to-head on the same benchmark. The off-diagonal question sits untouched between them. I claim it, cautiously, as this series' most original proposal.
+
+## The controls that make it an experiment
+
+An unprotected $C_{ij}$ matrix would be dismissed within a week, and rightly, because the deflationary multi-agent results are strong. [Self-MoA](https://arxiv.org/abs/2502.00674) reports that aggregating multiple samples from the *single best* model often beats mixing different models; ["More Agents Is All You Need"](https://arxiv.org/abs/2402.05120) reproduces much of the multi-agent gain with plain same-model sampling-and-voting; and the [MAST failure taxonomy](https://arxiv.org/abs/2503.13657) found deployed multi-agent frameworks failing 41–86.7% of the time, mostly for organizational reasons. Any off-diagonal structure in the matrix has to survive three controls:
+
+```text
+C_jj        the diagonal: each architecture consuming its OWN artifacts
+C_solo      a compute-matched single agent (incl. self-consistency)
+C_self-div  Self-MoA-style self-diversity: best architecture, multiple samples
+```
+
+The claim worth making is not "$C_{ij} > 0$" — almost any extra context might clear that bar — but that the matrix is *asymmetric and off-diagonally structured*: that there exist pairs where $C_{ij}$ substantially exceeds both $C_{jj}$ and what compute-matched self-diversity buys. If the best homogeneous population matches every heterogeneous one at equal token budget, the intertype question dies for machines too, and the deflationists win. Note that MAST's finding cuts both ways: it deflates multi-agent hype, but by attributing failures to *organizational* causes it also says the coupling — not the component — is where the variance lives. Which is exactly what the matrix measures.
+
+I do have priors, and I'll label them as pure hypothesis, uncontaminated by data: explorer-type architectures should feed critics well and vice versa; a simulator's trajectories should be unusually valuable to a formalist; and the diagonal should misbehave in type-specific ways — explorer→explorer producing idea explosion without convergence, critic→critic compounding into excessive conservatism. If those patterns showed up in a real matrix, socionics' "duality" would have found its measurable, non-mystical descendant. The nearest published cousin, [Multiagent Finetuning](https://arxiv.org/abs/2501.05707), diverges copies of the same base model into generator and critic specialists that sustain self-improvement longer than a single model — but it diverges the *weights*; the artifact-level version remains unrun.
+
+## Density is the second dial
+
+One refinement, borrowed from philosophy of science. The [Zollman effect](https://doi.org/10.1086/525605) — elaborated in ["The Epistemic Benefit of Transient Diversity"](https://doi.org/10.1007/s10670-009-9194-6) — shows in network-epistemology models that *more* communication can make an epistemic community *worse*: densely connected agents converge too fast on wrong answers, while sparser networks preserve the diversity needed to find right ones. ([Rosenstock, Bruner and O'Connor](https://doi.org/10.1086/690717) later showed the effect holds only in part of parameter space — hard problems, close alternatives — so treat it as a warning, not a law.) The implication for artifact compatibility: how much of $i$'s output flows to $j$, and how often, may matter as much as the pairing itself. A simulator whose every trajectory floods the formalist may homogenize the pair; the same coupling throttled to summaries might be where the gain lives. So the real object is not a matrix over architecture pairs but a surface over (pair × coupling topology × flow rate) — which is also, conveniently, the knob an engineer actually turns. That connects this post to [the ecology thesis](/thoughts/epistemic-ecology/) on one side and to [the delegation stack](/thoughts/delegation-stack/) on the other: routing artifacts between specialized processes *is* a delegation problem, and $C_{ij}$ is the missing capability table.
+
+The full experimental protocol — architectures, task streams, endpoints, falsification conditions — deserves its own post, and gets one in [Growing Minds in the Lab](/thoughts/growing-minds-in-the-lab/). Here I only want to fix the object of measurement. Socionics asked the right question and answered it by fiat. We can answer it by experiment.
+
+**What would change my mind:** a compute-matched study in which no heterogeneous pairing beats the best architecture's self-diversity baseline — a $C_{ij}$ matrix whose off-diagonal structure is statistically indistinguishable from the diagonal plus noise. If artifact value turns out to depend only on artifact *quality* and not on the producer–consumer pairing, then "type compatibility" fails for machines just as it failed for humans, and this post reduces to a well-controlled negative result.
