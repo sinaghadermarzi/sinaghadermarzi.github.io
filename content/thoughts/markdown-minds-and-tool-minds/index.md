@@ -1,6 +1,5 @@
 ---
 title: "Markdown Minds and Tool Minds"
-draft: true
 date: 2026-08-23
 description: "Declarative and procedural externalization produce different kinds of minds, not different file formats for the same mind."
 ---
