@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Preview site (Chrome)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:1313/",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "hugo: server",
+      "postDebugTask": "hugo: stop server"
+    },
+    {
+      "name": "Preview site (Edge)",
+      "type": "msedge",
+      "request": "launch",
+      "url": "http://localhost:1313/",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "hugo: server",
+      "postDebugTask": "hugo: stop server"
+    }
+  ]
+}

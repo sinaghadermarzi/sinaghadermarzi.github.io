@@ -1,0 +1,34 @@
+{{/* Overrides the theme partial to add a hover label under each icon. */}}
+{{ $labels := dict
+  "github" "GitHub"
+  "linkedin" "LinkedIn"
+  "scholar" "Scholar"
+  "x-twitter" "X"
+  "email" "Email"
+  "orcid" "ORCID"
+  "researchgate" "ResearchGate"
+  "stack-overflow" "Stack Overflow"
+  "youtube" "YouTube"
+  "gitlab" "GitLab"
+}}
+{{ with site.Language.Params.Author.links }}
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    {{ range $links := . }}
+      {{ range $name, $url := $links }}
+        {{ $label := or (index $labels $name) ($name | title) }}
+        <span class="social-link">
+          <a
+            class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+            style="will-change:transform;"
+            href="{{ $url | safeURL }}"
+            target="_blank"
+            aria-label="{{ $label }}"
+            rel="me noopener noreferrer"
+            >{{ partial "icon.html" $name }}</a
+          >
+          <span class="social-link-label" aria-hidden="true">{{ $label }}</span>
+        </span>
+      {{ end }}
+    {{ end }}
+  </div>
+{{ end }}

@@ -1,0 +1,19 @@
+{
+  "name": "sina.page (Hugo + Congo)",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [1313],
+  "portsAttributes": {
+    "1313": {
+      "label": "Hugo dev server",
+      "onAutoForward": "notify"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["budparr.language-hugo-vscode"]
+    }
+  },
+  "postCreateCommand": "hugo version && go version"
+}
