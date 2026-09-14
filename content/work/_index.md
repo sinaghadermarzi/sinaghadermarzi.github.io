@@ -26,6 +26,10 @@ Free-text clinical notes hold much of the signal in the medical record. This lin
 >
 > Detecting and removing protected health information (PHI) from clinical notes at scale. The interesting part is the workflow: the annotation guideline that steers the LLM is treated as an optimizable artifact — expressed as a [DSPy](https://dspy.ai/) program and refined with reflective prompt evolution ([GEPA](https://arxiv.org/abs/2507.19457)) against labeled evaluation sets — so guideline changes are measured rather than argued about.
 
+> **In progress — Hybrid de-identification: a guideline-driven LLM paired with a fine-tuned token classifier**
+>
+> The LLM pipeline above and a fine-tuned token classifier (OpenAI's open-weight Privacy Filter and similar encoders) fail in different ways: the LLM misses spans even under clear instructions, while the classifier is precise on frequent PHI types but weak on rare ones and cannot exist without annotated notes. This project measures how complementary those error sets are, per label and per training frequency, and tests a structured space of hybrids — inference-time fusion, cascades in which the LLM reviews the classifier's pre-tagged text, and training-time coupling in which the LLM manufactures the classifier's supervision (silver labels, rare-label injection, guideline co-refinement) — on a reproducible PHI-injection benchmark with controllable label frequencies, with surrogation of identifiers as a later arm.
+
 ## Postdoc at Yale: Machine Learning and Large Language Models (LLMs) in single-cell biology
 
 Applying language models and perturbational analysis to single-cell transcriptomics — from teaching LLMs to read gene expression to mapping how patient tumors resist immunotherapy.
